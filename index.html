@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acesso pessoal IA</title>
+<meta name="description" content="Aplicação de uso pessoal para leitura da própria conta Google, com permissão somente de leitura.">
+<style>
+  :root { --fundo: #f7f7f5; --texto: #1d1d1b; --suave: #5c5c57; --borda: #dcdcd6; --destaque: #1f3864; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fundo: #151515; --texto: #ececea; --suave: #a3a39e; --borda: #33332f; --destaque: #8fb0e8; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fundo); color: var(--texto); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+  p, li { color: var(--texto); }
+  .subtitulo { color: var(--suave); margin-top: 0; }
+  a { color: var(--destaque); }
+  nav { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--borda); }
+  footer { color: var(--suave); font-size: 0.9rem; margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Acesso pessoal IA</h1>
+  <p class="subtitulo">Aplicação de uso pessoal, mantida por <a href="https://github.com/juvery">juvery</a>.</p>
+
+  <p>Esta aplicação permite que ferramentas executadas no computador do próprio titular leiam a sua conta Google pessoal, sempre com permissão somente de leitura.</p>
+
+  <h2>O que ela faz</h2>
+  <ul>
+    <li>Localiza e baixa as faturas de cartão de crédito recebidas por e-mail no Gmail do titular.</li>
+    <li>Consulta os contatos do titular no Google Contatos.</li>
+  </ul>
+
+  <h2>Quem usa</h2>
+  <p>Somente o titular da conta. A aplicação não é oferecida ao público nem a terceiros.</p>
+
+  <nav>
+    <a href="privacidade.html">Política de Privacidade</a>
+    <a href="termos.html">Termos de Serviço</a>
+  </nav>
+  <footer>Última atualização: 31 de outubro de 2026.</footer>
+</main>
+</body>
+</html>
